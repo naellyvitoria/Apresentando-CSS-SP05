@@ -1,0 +1,38 @@
+body {
+  background-color: dimgrey;
+  color: ghostwhite;
+  font-family: sans-serif;
+}
+
+.ex1-margem {
+  border: 3px solid brown;
+  text-align: center;
+  width: 300px;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-bottom: 200px;
+  margin-left: 40px;
+}
+
+.ex2-margem {
+  border: 3px solid sienna;
+  text-align: center;
+  width: 300px;
+  margin: 80px auto 200px 40px;
+}
+
+/* ---------------------------------------------- */
+
+.div1 {
+  background-color: blueviolet;
+  width: 500px;
+  height: 300px;
+  padding-top: 60px;
+}
+
+.paragrafo-div {
+  background-color: mediumaquamarine;
+  width: 300px;
+  border: 4px solid darkmagenta;
+  margin: auto;
+}
