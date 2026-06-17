@@ -1,0 +1,159 @@
+body {
+    background-color: darksalmon;
+    font-family: monospace;
+}
+
+.dotted, 
+.dashed, 
+.solid, 
+.double, 
+.groove, 
+.ridge, 
+.inset, 
+.outset, 
+.none, 
+.hidden {
+    background-color: antiquewhite;
+    border: 2px solid orangered;
+    padding: 2px;
+}
+
+.dotted {
+    outline-style: dotted;
+}
+
+.dashed {
+    outline-style: dashed;
+}
+
+.solid {
+    outline-style: solid;
+}
+
+.double {
+    outline-style: double;
+}
+
+.groove {
+    outline-style: groove;
+}
+
+.ridge {
+    outline-style: ridge;
+}
+
+.inset {
+    outline-style: inset;
+}
+
+.outset {
+    outline-style: outset;
+}
+
+.none {
+    outline-style: none;
+}
+
+.hidden {
+    outline-style: hidden;
+}
+
+/*--------------------------*/
+
+.lc1,
+.lc2,
+.lc3,
+.lc4 {
+      background-color: antiquewhite;
+    border: 2px solid orangered;
+    padding: 2px;
+}
+
+.lc1 {
+    outline-style: solid;
+    outline-width: thin;
+}
+
+.lc2 {
+    outline-style: solid;
+    outline-width: medium;
+}
+
+.lc3 {
+    outline-style: solid;
+    outline-width: thick;
+}
+
+.lc4 {
+    outline-style: solid;
+    outline-width: 8px;
+}
+/*---------------------------*/
+
+.con-cor-1,
+.con-cor-2,
+.con-cor-3,
+.con-cor-invertida {
+     background-color: antiquewhite;
+    border: 2px solid orangered;
+    padding: 2px;
+}
+
+.con-cor-1 {
+    outline-style: solid;
+    outline-width: 4px;
+    outline-color: orange;
+}
+
+.con-cor-2 {
+    outline-style: solid;
+    outline-width: 4px;
+    outline-color: orangered;
+}
+
+.con-cor-3 {
+    outline-style: solid;
+    outline-width: 4px;
+    outline-color: brown;
+}
+
+.con-cor-invertida {
+  outline-style: solid;
+  outline-width: 4px;
+  filter: invert(100%); 
+}
+
+/* ---------------------------------------- */
+
+.out-ex-1, 
+.out-ex-2, 
+.out-ex-3 {
+  background-color: antiquewhite;
+  border: 2px solid orangered;
+  padding: 2px;
+}
+
+.out-ex-1 {
+  outline: dotted;
+}
+
+.out-ex-2 {
+  outline: 4px dashed;
+}
+
+.out-ex-3 {
+  outline: 4px outset orange;
+}
+
+/* -------------------------------------- */
+
+.out-arredondado {
+  background-color: antiquewhite;
+  border: 2px solid orangered;
+  padding: 2px;
+  outline: 4px solid darkred;
+  border-radius: 15px;
+}
+
+
+

@@ -1,0 +1,32 @@
+body {
+    background-color: darkolivegreen;
+}
+
+.div1 {
+    background-color: darksalmon;
+    width: 400px;
+    padding-top: 30px;
+    padding-right: auto;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.p1 {
+    background-color: crimson;
+    width: 200px;
+}
+
+/*---------------------------------------*/
+
+.div2 {
+    background-color: darksalmon;
+    width: 400px;
+    padding: 30px 20px 70px;
+    box-sizing: border-box;
+}
+
+.p2 {
+    background-color: crimson;
+    width: 200px;
+}

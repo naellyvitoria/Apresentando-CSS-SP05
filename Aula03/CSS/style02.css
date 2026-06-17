@@ -1,0 +1,25 @@
+body {
+    background-color: azure;
+    font-family: monospace;
+}
+
+.p1 {
+    background-color: salmon;
+    color: aliceblue;
+    height: 100px;
+    width: 200px;
+}
+
+/*----------------------------------------*/
+
+.div-ex-width {
+    background-color: darkslateblue;
+    color: aliceblue;
+    width: 500px;
+}
+
+.div-ex-max-width {
+     background-color: darkslateblue;
+    color: aliceblue;
+    width: 500px;
+}
