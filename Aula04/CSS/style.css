@@ -1,0 +1,12 @@
+body {
+  background-color: lightsalmon;
+  font-family: monospace;
+}
+
+.ex1 {
+  background-color: antiquewhite;
+  border: 2px solid orangered;
+  padding: 2px;
+  outline: 4px solid darkred;
+  outline-offset: -8px;
+}

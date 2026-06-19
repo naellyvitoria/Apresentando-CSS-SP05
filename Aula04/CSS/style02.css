@@ -1,0 +1,14 @@
+body {
+  background-color: lightgreen;
+  font-family: sans-serif;
+  color: midnightblue;
+}
+
+h2 {
+  color: red;
+}
+
+p {
+  color: mediumvioletred;
+  background-color: darkorange;
+}

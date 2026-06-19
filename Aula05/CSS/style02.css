@@ -1,0 +1,99 @@
+body {
+    background-color: midnightblue;
+    font-family: monospace;
+    color: aliceblue;
+}
+
+.p-overline {
+    text-decoration: overline;
+}
+
+.p-line-through {
+    text-decoration: line-through;
+}
+
+.p-underline {
+    text-decoration: underline;
+}
+
+.p-misto {
+    text-decoration:overline underline;
+}
+
+/*--------------------------------------------*/
+
+.p-overline-cor {
+    text-decoration-line: overline;
+    text-decoration-color: lightcoral;
+}
+
+.p-line-through-cor {
+    text-decoration-line: line-through;
+    text-decoration-color: limegreen;
+}
+
+.p-underline-cor {
+    text-decoration-line: underline;
+    text-decoration-color: lightseagreen;
+}
+
+.p-misto-cor {
+    text-decoration-line: overline underline;
+    text-decoration-color: lightpink;
+}
+
+/*--------------------------------------------*/
+
+.edp-solid,
+.edp-double,
+.edp-dotted,
+.edp-dashed,
+.edp-wavy,
+.edp-wavy-colorido {
+    text-decoration-line: overline;
+}
+
+.edp-solid {
+    text-decoration-style: solid ;
+}
+
+.edp-double {
+    text-decoration-style: double;
+}
+
+.edp-dotted {
+    text-decoration-style: dotted;
+}
+
+.edp-dashed {
+    text-decoration-style: dashed;
+}
+
+.edp-wavy {
+    text-decoration-style: wavy;
+}
+
+.edp-wavy-colorido {
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
+/*-------------------------------------------*/
+
+.dt-auto,
+.dt-px,
+.dt-porcentagem {
+    text-decoration-line: underline;
+}
+
+.dt-auto {
+    text-decoration-thickness: auto;
+}
+
+.dt-px {
+    text-decoration-thickness: 6px;
+}
+
+.dt-porcentagem {
+    text-decoration-thickness: 60%;
+}
