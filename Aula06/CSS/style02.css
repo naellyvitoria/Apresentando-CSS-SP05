@@ -1,0 +1,24 @@
+body {
+  background-color: antiquewhite;
+  font-family: monospace;
+}
+
+.p-text-indent {
+  text-indent: 50px;
+}
+
+.p-letter-spacing {
+  letter-spacing: 10px;
+}
+
+.p-line-height {
+  line-height: 2.0;
+}
+
+.p-word-spacing {
+  word-spacing: 50px;
+}
+
+.p-white-space {
+  white-space: nowrap;
+}

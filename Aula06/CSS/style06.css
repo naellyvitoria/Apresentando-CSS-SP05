@@ -1,0 +1,12 @@
+body {
+  background-color: coral;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-normal {
+  font-variant: normal;
+}
+
+.p-variant {
+  font-variant: small-caps;
+}
