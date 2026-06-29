@@ -1,0 +1,55 @@
+body {
+  background-color:darkslateblue;
+  font-family: monospace;
+  color: aliceblue;
+}
+
+.p-20px {
+  font-size: 20px;
+}
+
+.p-25px {
+  font-size: 25px;
+}
+
+.p-30px {
+  font-size: 30px;
+}
+
+/* ------------------------------- */
+
+.p-em-ex1 {
+  font-size: 1.25em;
+}
+
+.p-em-ex2 {
+  font-size: 1.56em;
+}
+
+.p-em-ex3 {
+  font-size: 1.875em;
+}
+
+/* ------------------------------- */
+
+.p-rem-ex1 {
+  font-size: 1.25rem;
+}
+
+.p-rem-ex2 {
+  font-size: 1.56rem;
+}
+
+.p-rem-ex3 {
+  font-size: 1.875rem;
+}
+
+/* ----------------------- */
+
+.h3-vw {
+  font-size: 10vw;
+}
+
+.p-vw {
+  font-size: 5vw;
+}

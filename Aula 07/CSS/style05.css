@@ -1,0 +1,39 @@
+body {
+  background-color: cadetblue;
+  color: blanchedalmond;
+  font-family: sans-serif;
+}
+
+.ex1 {
+  color: crimson;
+  background-color: bisque;
+  font-weight: bold;
+}
+
+.ex2 {
+  color: crimson;
+  background-color: bisque;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* ------------------------------- */
+
+.ex3:link, .ex3:visited {
+  background-color: bisque;
+  color: crimson;
+  text-decoration: none;
+  padding: 30px 54px;
+  text-align: center;
+  display: inline-block;
+  border: 4px solid tan;
+  font-weight: bold;
+}
+
+.ex3:hover, .ex3:active {
+  background-color: crimson;
+  color: tan;
+  border: 4px solid bisque;
+  border-radius: 6px;
+  transition: .5s;
+}
