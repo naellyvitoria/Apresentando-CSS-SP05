@@ -1,0 +1,35 @@
+body {
+  background-color: moccasin;
+  font-family: sans-serif;
+}
+
+.ex1 {
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: center;
+}
+
+.ex1 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: aliceblue;
+  text-align: center;
+  align-content: center;
+}
+
+#d1 {
+  order: 4;
+}
+
+#d2 {
+  order: 2;
+}
+
+#d3 {
+  order: 1;
+}
+
+#d4 {
+  order: 3;
+}

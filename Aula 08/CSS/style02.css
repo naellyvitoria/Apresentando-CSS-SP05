@@ -1,0 +1,146 @@
+body {
+  background-color: brown;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: orangered;
+}
+
+h3 {
+  color: bisque;
+}
+
+.ex1 {
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+}
+
+.ex1 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: bisque;
+  text-align: center;
+  align-content: center;
+}
+
+/* ------------------ */
+
+.ex2 {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+}
+
+.ex2 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: bisque;
+  text-align: center;
+  align-content: center;
+}
+
+/* -------------------- */
+
+.ex3 {
+  background-color: orange;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.ex3 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: bisque;
+  text-align: center;
+  align-content: center;
+}
+
+/* -------------------- */
+
+.ex4 {
+  background-color: orange;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.ex4 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: bisque;
+  text-align: center;
+  align-content: center;
+}
+
+/* -------------------- */
+
+.ex5 {
+  background-color: orange;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.ex5 div {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  background-color: bisque;
+  text-align: center;
+  align-content: center;
+}
+
+/* ------------------ */
+
+.ex6 {
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ex6 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: bisque;
+  text-align: center;
+  align-content: center;
+}
+
+/* ------------------------ */
+
+.ex7 {
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.ex7 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: bisque;
+  text-align: center;
+  align-content: center;
+}
+
+/* --------------------------- */
+
+.ex8 {
+  background-color: orange;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.ex8 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: bisque;
+  text-align: center;
+  align-content: center;
+}

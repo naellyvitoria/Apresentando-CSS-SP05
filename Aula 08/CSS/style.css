@@ -1,0 +1,19 @@
+body {
+  background-color: azure;
+  font-family: sans-serif;
+}
+
+.container1 {
+  display: flex;
+  background-color: darkblue;
+}
+
+.container1 div {
+  background-color: aliceblue;
+  font-size: 22px;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}

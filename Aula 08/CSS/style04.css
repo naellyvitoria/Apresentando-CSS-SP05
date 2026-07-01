@@ -1,0 +1,155 @@
+body {
+  background-color: green;
+  font-family: monospace;
+}
+
+h2 {
+  color: goldenrod;
+}
+
+h3 {
+  color: darkblue;
+}
+
+.ex1 {
+  background-color: goldenrod;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ex1 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: darkblue;
+  color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+
+/* ---------------- */
+
+.ex2 {
+  background-color: goldenrod;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ex2 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: darkblue;
+  color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+
+/* ----------------------- */
+
+.ex3 {
+  background-color: goldenrod;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.ex3 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: darkblue;
+  color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+
+/* ----------------- */
+
+.ex4 {
+  background-color: goldenrod;
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.ex4 div {
+  width: 100px;
+  margin: 20px;
+  background-color: darkblue;
+  color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+
+/* ---------------------- */
+
+.ex5 {
+  background-color: goldenrod;
+  display: flex;
+  height: 700px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.ex5 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: darkblue;
+  color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+
+/* --------------------- */
+
+.ex6 {
+  background-color: goldenrod;
+  display: flex;
+  height: 700px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.ex6 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: darkblue;
+  color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
+
+/* ------------------------- */
+
+.ex7 {
+  background-color: goldenrod;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ex7 div {
+  background-color: darkblue;
+  width: 200px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ex7 div p {
+  background-color: ghostwhite;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}

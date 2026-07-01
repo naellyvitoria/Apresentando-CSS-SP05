@@ -1,0 +1,112 @@
+body {
+  background-color:midnightblue;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: tomato;
+}
+
+h3 {
+  color: aliceblue;
+}
+
+.ex1 {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+}
+
+.ex1 div {
+  width: 90px;
+  height: 90px;
+  margin: 15px;
+  background-color: aliceblue;
+  text-align: center;
+  align-content: center;
+}
+
+/* ---------------- */
+
+.ex2 {
+  background-color: tomato;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ex2 div {
+  width: 90px;
+  height: 90px;
+  margin: 15px;
+  background-color: aliceblue;
+  text-align: center;
+  align-content: center;
+}
+
+/* -------------------- */
+
+.ex3 {
+  background-color: tomato;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ex3 div {
+  width: 90px;
+  height: 90px;
+  margin: 15px;
+  background-color: aliceblue;
+  text-align: center;
+  align-content: center;
+}
+
+/* ----------------- */
+
+.ex4 {
+  background-color: tomato;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ex4  div {
+  width: 90px;
+  height: 90px;
+  margin: 15px;
+  background-color: aliceblue;
+  text-align: center;
+  align-content: center;
+}
+
+/* --------------------------- */
+
+.ex5 {
+  background-color: tomato;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ex5 div {
+  width: 90px;
+  height: 90px;
+  margin: 15px;
+  background-color: aliceblue;
+  text-align: center;
+  align-content: center;
+}
+
+/* --------------- */
+
+.ex6 {
+  background-color: tomato;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ex6 div {
+  width: 90px;
+  height: 90px;
+  margin: 15px;
+  background-color: aliceblue;
+  text-align: center;
+  align-content: center;
+}
