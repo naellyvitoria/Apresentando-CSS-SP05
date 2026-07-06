@@ -1,0 +1,178 @@
+body {
+  background-color: moccasin;
+  font-family: sans-serif;
+}
+
+.ex1 {
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: center;
+}
+
+.ex1 div {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: aliceblue;
+  text-align: center;
+  align-content: center;
+}
+
+#d1 {
+  order: 4;
+}
+
+#d2 {
+  order: 2;
+}
+
+#d3 {
+  order: 1;
+}
+
+#d4 {
+  order: 3;
+}
+
+/* --------------------------- */
+
+.ex2 {
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: center;
+}
+
+.ex2 div {
+  padding: 50px 60px;
+  background-color: aliceblue;
+  margin: 20px;
+  text-align: center;
+}
+
+#fgi1 {
+  flex-grow: 6;
+}
+
+#fgi2 {
+  flex-grow: 1;
+}
+
+#fgi3 {
+  flex-grow: 4;
+}
+
+/* --------------------- */
+
+.ex3 {
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: center;
+}
+
+.ex3 div {
+  width: 140px;
+  height: 100px;
+  background-color: aliceblue;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+#fsi3 {
+  flex-shrink: 3;
+}
+
+/* ------------------ */
+
+.ex4 {
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: center;
+}
+
+.ex4 div {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+#fbi3 {
+  flex-basis: 200px;
+}
+
+/* --------------------- */
+
+.ex5 {
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: center;
+}
+
+.ex5 div {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+#fi3 {
+  flex: 1 0 200px;
+}
+
+/* -------------- */
+
+.ex6 {
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.ex6 div {
+  width: 100px;
+  background-color: aliceblue;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+#asi3 {
+  align-self: center;
+  height: 100px;
+}
+
+.ex7 {
+  margin-top: 20px;
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.ex7 div {
+  width: 100px;
+  background-color: aliceblue;
+  margin: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+#ex-asi2 {
+  align-self: flex-start;
+  height: 100px;
+}
+
+#ex-asi3 {
+  align-self: center;
+  height: 100px;
+}
+
+#ex-asi4 {
+  align-self: flex-end;
+  height: 100px;
+}

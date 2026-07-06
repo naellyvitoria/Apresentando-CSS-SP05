@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Aula 08 CSS</title>
+</head>
+<body>
+  
+  <!-- Flexbox -->
+
+  <h2>Exemplos de itens flexíveis</h2>
+
+  <h3>order</h3>
+
+  <div class="ex1">
+    <div id="d1">1</div>
+    <div id="d2">2</div>
+    <div id="d3">3</div>
+    <div id="d4">4</div>
+  </div>
+
+  <hr>
+
+  <h3>flex-grow</h3>
+
+  <div class="ex2">
+    <div id="fgi1">1</div>
+    <div id="fgi2">2</div>
+    <div id="fgi3">3</div>
+  </div>
+
+  <hr>
+
+  <h3>flex-shrink</h3>
+
+  <div class="ex3">
+    <div>1</div>
+    <div>2</div>
+    <div id="fsi3">3</div>
+    <div>4</div>
+  </div>
+
+  <hr>
+
+  <h3>flex-basis</h3>
+
+  <div class="ex4">
+    <div>1</div>
+    <div>2</div>
+    <div id="fbi3">3</div>
+    <div>4</div>
+  </div>
+
+  <hr>
+
+  <h3>flex</h3>
+
+  <div class="ex5">
+    <div>1</div>
+    <div>2</div>
+    <div id="fi3">3</div>
+    <div>4</div>
+  </div>
+
+  <hr>
+
+  <h3>align-self</h3>
+
+  <div class="ex6">
+    <div>1</div>
+    <div>2</div>
+    <div id="asi3">3</div>
+    <div>4</div>
+  </div>
+
+  <div class="ex7">
+    <div>1</div>
+    <div id="ex-asi2">2</div>
+    <div id="ex-asi3">3</div>
+    <div id="ex-asi4">4</div>
+  </div>
+
+
+</body>
+</html>
