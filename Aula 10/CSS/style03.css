@@ -1,0 +1,286 @@
+body {
+  background-color: darkgrey;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: ghostwhite;
+}
+
+hr {
+  height: 10px;
+  background-color: black;
+  border: none;
+  margin: 40px 0;
+}
+
+.ex1 {
+  background-color: lightgray;
+  border: 8px solid black;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.ex1 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}
+
+/* ----------------------- */
+
+.ex2 {
+  background-color: lightgray;
+  border: 8px solid black;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.ex2 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}
+
+/* ----------------- */
+
+.ex3 {
+  background-color: lightgray;
+  border: 8px solid black;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.ex3 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}
+
+/* ------------------- */
+
+.ex4 {
+  background-color: lightgray;
+  border: 8px solid black;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.ex4 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}
+
+/* --------------------------- */
+
+.ex5 {
+  background-color: lightgray;
+  border: 8px solid black;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  justify-content: start;
+}
+
+.ex5 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}
+
+/* ------------------------ */
+
+.ex6 {
+  background-color: lightgray;
+  border: 8px solid black;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  justify-content: end;
+}
+
+.ex6 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}
+
+/* ------------ */
+
+.ex7 {
+  background-color: lightgray;
+  border: 8px solid black;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  align-content: center;
+}
+
+.ex7 div{
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 23px;
+  text-align: center;
+  align-content: center;
+}
+
+/* -------------------- */
+
+.ex8 {
+  background-color: lightgray;
+  border: 8px solid black;
+  display: grid;
+  height: 300px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  align-content: space-evenly;
+}
+
+.ex8 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}
+
+/* ---------------- */
+
+.ex9 {
+  background-color: lightgray;
+  border: 8px solid black;
+  display: grid;
+  height: 300px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  align-content: space-around;
+}
+
+.ex9 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}
+
+/* --------------------- */
+
+.ex10 {
+  background-color: lightgray;
+  border: 8px solid black;
+  display: grid;
+  height: 300px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 40px);
+  gap: 20px;
+  align-content: space-between;
+}
+
+.ex10 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}
+
+/* ------------------ */
+
+.ex11 {
+  background-color: lightgray;
+  border: 8px solid black;
+  display: grid;
+  height: 300px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  align-content: start;
+}
+
+.ex11 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}
+
+/* ------------------ */
+
+.ex12 {
+  background-color: lightgray;
+  border: 8px solid black;
+  display: grid;
+  height: 300px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  align-content: end;
+}
+
+.ex12 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}
+
+/* ----------------- */
+
+.ex13 {
+  background-color: lightgray;
+  border: 8px solid black;
+  display: grid;
+  height: 300px;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(2, 40px);
+  gap: 20px;
+  place-content: center;
+}
+
+.ex13 div {
+  background-color: ghostwhite;
+  border: 4px solid grey;
+  font-size: 24px;
+  text-align: center;
+  align-content: center;
+}

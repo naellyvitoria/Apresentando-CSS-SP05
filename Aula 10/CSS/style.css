@@ -1,0 +1,22 @@
+body {
+  background-color: moccasin;
+  font-family: sans-serif;
+}
+
+.ex1 {
+  background-color: ghostwhite;
+  border: 8px solid darkgreen;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 120px 200px;
+  gap: 20px;
+  padding: 10px;
+}
+
+.ex1 div{
+  background-color: sienna;
+  border: 4px solid darkkhaki;
+  color: ghostwhite;
+  text-align: center;
+  align-content: center;
+}
